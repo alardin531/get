@@ -48,6 +48,7 @@ class Date{
 		}
 		fsum=sum+d;
 		cout<<fsum<<endl;
+		cout<<fsum/m<<endl; 
 		}
 
 		}
