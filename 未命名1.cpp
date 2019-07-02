@@ -15,5 +15,12 @@ int main()
 		sum+=a;
 	}
 	cout<<i<<" "<<sum;
+	if(k>10){
+		cout<<"too long"<<endl;
+		
+	} 
+	else {
+		cout<<"it is suitable"<<endl;
+	}
 	return 0;
  } 
