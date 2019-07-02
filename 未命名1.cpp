@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int n,k,sum=0,a,i=0,j;
+	int n,k,sum=0,a,i=0,j,key=0;
 	cin>>n;
 	j=n;
 	while(j>0){
@@ -13,6 +13,9 @@ int main()
 		a=n%10;
 		n/=10;
 		sum+=a;
+		if(k%2==0){
+			key++;
+		}
 	}
 	cout<<i<<" "<<sum;
 	if(k>10){
@@ -20,7 +23,7 @@ int main()
 		
 	} 
 	else {
-		cout<<"it is suitable"<<endl;
+		cout<<"it is suitable"<<key<<endl;
 	}
 	return 0;
  } 
