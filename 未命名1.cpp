@@ -51,11 +51,15 @@ class Date{
 		}
 
 		}
+		
 };
 int main(){
 	int j,k,l;
 	cin>>j>>k>>l;
 	Date a(j,k,l);
 	a.showtime();
+	for(unsigned i=10;i<=20;i++){
+			cout<<"you are fooled"<<endl;
+		}
 	return 0;
 }
