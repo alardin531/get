@@ -18,6 +18,9 @@ int main() {
       ques = 0;  numCorrect = 0; cout << endl;
     }
   }
+  if(ques!=0){
+  	cout<<"ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyou are cheated ! "<<endl;
+  } 
   return 0;
 }
 
